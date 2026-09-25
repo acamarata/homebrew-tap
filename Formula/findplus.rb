@@ -3,8 +3,8 @@ class Findplus < Formula
 
   desc "Local location history and alerts for Find Hub and Find My trackers"
   homepage "https://github.com/acamarata/findplus"
-  url "https://github.com/acamarata/findplus/releases/download/v1.0.0/findplus-1.0.0.tar.gz"
-  sha256 "e5602874d2ed2389b1d1735786ff9328d17a0317cc2177a9b285b102f8e0d0c5"
+  url "https://github.com/acamarata/findplus/releases/download/v1.1.0/findplus-1.1.0.tar.gz"
+  sha256 "1af4602655a978a98575acce919541e2b0ce2b54ef6792769161800865c1d3b3"
   license "GPL-3.0-or-later"
 
   # cryptography builds its Rust extension with maturin, and Homebrew installs
@@ -130,8 +130,8 @@ class Findplus < Formula
   end
 
   resource "httpcore2" do
-    url "https://files.pythonhosted.org/packages/15/8c/e925b1c92018abb3a1863ce1549d76d2381e334d21d65d4ac8f65dabd78a/httpcore2-2.13.0.tar.gz"
-    sha256 "2adc8be4fb285fbcd6d894298db3b52c177e74b6674eda3a76bd36be3292a3db"
+    url "https://files.pythonhosted.org/packages/cb/f3/1db7aa2bc2524062192bb0e0323969492d1883152a232fe36eea65f4e35c/httpcore2-2.13.1.tar.gz"
+    sha256 "e0aa977abe17e69a3b820a24542a6fa88702676d83880b8d194dcd18408e5103"
   end
 
   resource "httptools" do
@@ -145,8 +145,8 @@ class Findplus < Formula
   end
 
   resource "httpx2" do
-    url "https://files.pythonhosted.org/packages/b9/a0/e9deef4654132857b5a5dbe4eddd0ac59c2814500e11f2f5044cd81103ee/httpx2-2.13.0.tar.gz"
-    sha256 "81bd07dc67a3701729ef1f777a3c00c915d4539604fdb5afd327f8682f6b7b44"
+    url "https://files.pythonhosted.org/packages/d5/44/474bef2a0e9d90f1715d32cb98b0738695ca17ba324095fb2497ed7fbd59/httpx2-2.13.1.tar.gz"
+    sha256 "e48744a19e3af5ee48313d0ce5fe941d5422fae5705ea922a4aabf94d7800dfa"
   end
 
   resource "hyperframe" do
@@ -170,8 +170,8 @@ class Findplus < Formula
   end
 
   resource "mako" do
-    url "https://files.pythonhosted.org/packages/2a/12/b5fa2353e2754cd67fb9f83793fa48ff42c213a5da7e719869d2301f6ab8/mako-1.4.1.tar.gz"
-    sha256 "d7904710b662996425a21627710c4777c45053146942cf8a7aebf757c92b8c27"
+    url "https://files.pythonhosted.org/packages/5a/09/e07c4b5579a79f4b16f8d4f29f6c54514ac787c4ad506b8c4f28a0e6b0bf/mako-1.4.3.tar.gz"
+    sha256 "cd6537fe88d5fec315c55c2f8529bc4ce7a9a352ad7db3eeaa6a66e2dd4ec37a"
   end
 
   resource "markupsafe" do
@@ -190,13 +190,13 @@ class Findplus < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/e7/59/84b6cad9ddfdd9471db727b0e987c60ecbdb6b206ba265e8c50e74a1ab80/multidict-6.9.0.tar.gz"
-    sha256 "d7d32c0543494efbc9394e2b571725071d08e295993486bc9a43f6f89375ee01"
+    url "https://files.pythonhosted.org/packages/d6/99/1d4d69c3512d0ddbfa3a1b69cfd9a151012ab2eb4eabbb096201b1f0b7d8/multidict-6.9.1.tar.gz"
+    sha256 "0f06e60fa190aa7abd0914c2a766736fdc8e9f34878c4346338534b73d1b20e2"
   end
 
   resource "opentelemetry-api" do
-    url "https://files.pythonhosted.org/packages/ee/8b/aa9e2d8b8dfa7c946f7dec5d1f8f6ba8eca062f43509a06bdb5ce93d26c0/opentelemetry_api-1.44.0.tar.gz"
-    sha256 "67647e5e9566edcf421166fdf022b3537f818635daa852b289e34604dc6fb33a"
+    url "https://files.pythonhosted.org/packages/1f/dc/e12c1fe1ed8a7b7149777127b1a0e12ce5bd5a81d97408bedc2128c260f5/opentelemetry_api-1.45.0.tar.gz"
+    sha256 "711ede81773c8025c2c03dac0450bc89f3d30aea6eabcc815c570d4e35a963f7"
   end
 
   resource "outcome" do
@@ -229,19 +229,19 @@ class Findplus < Formula
     sha256 "51a9c5f7b2f8e636f04c6cada605d9b6a3bf1348fdf945a3d8869b19bba0ee08"
   end
 
-  resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz"
-    sha256 "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc"
-  end
-
   resource "pydantic-settings" do
     url "https://files.pythonhosted.org/packages/68/ca/31c57507b13119d7d3cfa1576dad2911a4861e3be07b579395f4e9d393f9/pydantic_settings-2.15.0.tar.gz"
     sha256 "694b793e84f766ba76a90ebdefc01d0a9a045dab0382bee70393da93712ad117"
   end
 
+  resource "pydantic-core" do
+    url "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz"
+    sha256 "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc"
+  end
+
   resource "pyjwt" do
-    url "https://files.pythonhosted.org/packages/af/c3/8a3b59c25070cc61dc517fbdfa5dc0904670c96f605cc69759dc09166b99/pyjwt-2.14.0.tar.gz"
-    sha256 "77283c83fb56ecf566a886c757a714bc83668e38156de2cce8263302f42e0b86"
+    url "https://files.pythonhosted.org/packages/02/a5/5197bfd06417837ac079921c66fa6393f1dea3557272a263cebfef69e432/pyjwt-2.15.0.tar.gz"
+    sha256 "b11c5f9791d7bf51c2b39a81ed669f6b2dbbd669df2942f6c60167e9e3d1abe4"
   end
 
   resource "pyscrypt" do
@@ -265,8 +265,8 @@ class Findplus < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/fb/48/fb042503b6ca6cd271261dc559fd6432f7d8c713153e9ec5c591af4dfc1c/pytz-2026.3.post1.tar.gz"
-    sha256 "2211d3fcf9a797d3405cac96ac7f61d80e6a644f72a3309607282fe8a2010c5d"
+    url "https://files.pythonhosted.org/packages/b0/ed/fa23d28713004418bbf2407127f80f385bfb0bf4e677bef02c25c27b00ee/pytz-2026.4.tar.gz"
+    sha256 "464303645bafafd72418898368b2429458f709cf1eb6a15372fbcc396b64da63"
   end
 
   resource "pyyaml" do
@@ -315,13 +315,13 @@ class Findplus < Formula
   end
 
   resource "soupsieve" do
-    url "https://files.pythonhosted.org/packages/69/99/a6ca3beb3ccacb41fb3321d8a60e5566f9e6467601ef8eba6a17e1b89778/soupsieve-2.9.2.tar.gz"
-    sha256 "4a55d8cf158a9c2e587fa4922f1bbb91d68ac829e2d6f25403a85747c71daf74"
+    url "https://files.pythonhosted.org/packages/71/c3/1b817965ac12dc002d7c9cd7dfffdd7d4fbf9b45763ef2ffe7b86ee94670/soupsieve-2.10.tar.gz"
+    sha256 "49e9380d7d2905463583bafe285e818c7366a9ed7b3aee221c1ac79c905d8bc0"
   end
 
   resource "sqlalchemy" do
-    url "https://files.pythonhosted.org/packages/29/9c/271aa905cf2964f841371a97f3e63ab692bf51b4423d0491e67bc7f64037/sqlalchemy-2.0.54.tar.gz"
-    sha256 "baa8521e8ee9f24e75dfc7aaabc08020e551ef0d48d7c3e3536f5cddf277586b"
+    url "https://files.pythonhosted.org/packages/ba/29/8de56a7f78fb0d71fe4f91ee43401a24ba8777e6d4f72683f268c9e0c72e/sqlalchemy-2.1.0.tar.gz"
+    sha256 "37600e4641c435a7e4549f4e6df79d9dfc096bb9712a10dba8925921bc87bc3c"
   end
 
   resource "sse-starlette" do
@@ -330,8 +330,8 @@ class Findplus < Formula
   end
 
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/b5/b4/205b0d5241d934e8add0c38aa924c4f9fb7330834ff11e5444db964ec3f9/starlette-1.6.0.tar.gz"
-    sha256 "d4e3ac5e546444960c710297a3c9fc3f7ebae1b7e963f3d36173b49da535be9b"
+    url "https://files.pythonhosted.org/packages/7b/2b/3850dc6bf7ef71b088962eba31dafc6cffd2f96e577ebb0bb316df96da3e/starlette-1.7.0.tar.gz"
+    sha256 "c79f74ea63cff761804fbbfb182f1e0b440c2d07b164d24700c5a1bab5d6ff5d"
   end
 
   resource "structlog" do
@@ -354,14 +354,14 @@ class Findplus < Formula
     sha256 "9d91bd436463ad5e4ee4aba766628dd6cd7010cf3e2461756b3303710eebc301"
   end
 
-  resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
-    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
-  end
-
   resource "typing-inspection" do
     url "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz"
     sha256 "547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   resource "tzlocal" do
@@ -380,8 +380,8 @@ class Findplus < Formula
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/5d/ad/04bbb797c84fc1f26cb171f7394716f4865ffb8d8c5e1eef42565c2dfa6b/uvicorn-0.53.0.tar.gz"
-    sha256 "a9356f0cb89b3b8621529c5d5eebd69bfe154f4c3f68b4cf2de47e45fa855c2e"
+    url "https://files.pythonhosted.org/packages/da/34/30e9280707135d2cfc589dfff3cb796bd07a3aeb1a3e415ba09dd89d7bb4/uvicorn-0.54.0.tar.gz"
+    sha256 "a2e33cbfaa0306f8e6b0c13e0cb89d7d7a2da3e62b90c66e18c33d9807b28620"
   end
 
   resource "uvloop" do
@@ -390,8 +390,8 @@ class Findplus < Formula
   end
 
   resource "watchfiles" do
-    url "https://files.pythonhosted.org/packages/cd/41/5e1a4bb12aac5f1493fa1bdc11154eca3b258ca4eba65d39c473fe19d8e9/watchfiles-1.2.0.tar.gz"
-    sha256 "c995fba777f1ea992f090f9236e9284cf7a5d1a0130dd5a3d82c598cacd76838"
+    url "https://files.pythonhosted.org/packages/b3/68/e6aa0b77d217b31f8f486ec0cdfe5e00e6e38dc0be657e7d85819b9faf0a/watchfiles-1.3.0.tar.gz"
+    sha256 "99aee4a07847c06820765fd7b1b49ceac4f3f711ccb7d104655a33231de1c207"
   end
 
   resource "websocket-client" do
@@ -423,7 +423,7 @@ class Findplus < Formula
       Chrome is required for Google sign-in.
       State directory: ~/.findplus/
       `findplus start` installs a user LaunchAgent.
-      Run `findplus auth` to begin.
+      Run `findplus setup` to begin.
     EOS
   end
 
