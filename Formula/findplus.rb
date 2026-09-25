@@ -3,8 +3,8 @@ class Findplus < Formula
 
   desc "Local location history and alerts for Find Hub and Find My trackers"
   homepage "https://github.com/acamarata/findplus"
-  url "https://github.com/acamarata/findplus/releases/download/v1.1.0/findplus-1.1.0.tar.gz"
-  sha256 "1af4602655a978a98575acce919541e2b0ce2b54ef6792769161800865c1d3b3"
+  url "https://github.com/acamarata/findplus/releases/download/v1.1.1/findplus-1.1.1.tar.gz"
+  sha256 "22b32d16b396133cd229116bfdb836ae4b4bf6918d0020be345ad58d8ec06527"
   license "GPL-3.0-or-later"
 
   # cryptography builds its Rust extension with maturin, and Homebrew installs
@@ -320,8 +320,8 @@ class Findplus < Formula
   end
 
   resource "sqlalchemy" do
-    url "https://files.pythonhosted.org/packages/ba/29/8de56a7f78fb0d71fe4f91ee43401a24ba8777e6d4f72683f268c9e0c72e/sqlalchemy-2.1.0.tar.gz"
-    sha256 "37600e4641c435a7e4549f4e6df79d9dfc096bb9712a10dba8925921bc87bc3c"
+    url "https://files.pythonhosted.org/packages/a8/cb/7c68da82239ffae9378eca076afe14c310e17a4f01e3d315112f266e26c7/sqlalchemy-2.1.1.tar.gz"
+    sha256 "fcf3cbb33bb23bad75d2150157c21804618745731e9931ab27e61879a9f6123b"
   end
 
   resource "sse-starlette" do
