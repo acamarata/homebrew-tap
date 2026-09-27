@@ -3,8 +3,8 @@ class Findplus < Formula
 
   desc "Local location history and alerts for Find Hub and Find My trackers"
   homepage "https://github.com/acamarata/findplus"
-  url "https://github.com/acamarata/findplus/releases/download/v1.1.2/findplus-1.1.2.tar.gz"
-  sha256 "81588166688d8a6135ddf7c7a4aa7f3eb362690e2ffad42994227af67dfb8cd5"
+  url "https://github.com/acamarata/findplus/releases/download/v1.1.4/findplus-1.1.4.tar.gz"
+  sha256 "f5d24d69a527b8d849fa4a7ab29697548e8d13c1382a6e41e4ca8cae7645223c"
   license "GPL-3.0-or-later"
 
   # cryptography builds its Rust extension with maturin, and Homebrew installs
