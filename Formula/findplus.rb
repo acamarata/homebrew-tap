@@ -3,8 +3,8 @@ class Findplus < Formula
 
   desc "Local location history and alerts for Find Hub and Find My trackers"
   homepage "https://github.com/acamarata/findplus"
-  url "https://github.com/acamarata/findplus/releases/download/v1.2.2/findplus-1.2.2.tar.gz"
-  sha256 "ef0db5eeb6b76cc54dfd02cbc655117e7c31f1c7d38be1d93d6834ab812b0e01"
+  url "https://github.com/acamarata/findplus/releases/download/v1.2.3/findplus-1.2.3.tar.gz"
+  sha256 "1cf28b8f3fb6ca948292a638816ec1ea5d67d0178700004cb887087d8f3a09f3"
   license "GPL-3.0-or-later"
 
   # cryptography builds its Rust extension with maturin, and Homebrew installs
@@ -220,8 +220,8 @@ class Findplus < Formula
   end
 
   resource "pycryptodomex" do
-    url "https://files.pythonhosted.org/packages/c9/85/e24bf90972a30b0fcd16c73009add1d7d7cd9140c2498a68252028899e41/pycryptodomex-3.23.0.tar.gz"
-    sha256 "71909758f010c82bc99b0abf4ea12012c98962fbf0583c2164f8b84533c2e4da"
+    url "https://files.pythonhosted.org/packages/4c/25/214ea825a9031f5af2c8b2506ee16701a2560d4712165dd00098dd527bcb/pycryptodomex-3.24.0.tar.gz"
+    sha256 "0428f19f13452c6b89bbaf2c530f84f369873811dfa77f0cee0da4f40fb0474f"
   end
 
   resource "pydantic" do
